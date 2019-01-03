@@ -1,0 +1,2 @@
+插入语句
+insert into 表名(字段) values(值);
