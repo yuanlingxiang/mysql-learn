@@ -1,0 +1,13 @@
+删除数据表
+drop table 表名；
+
+创建数据表
+create table lun_table(
+id int not null auto_increment,
+lun_id int not null,
+lun_name varchar(10) not null,
+primary key(id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+清空数据表数据
+delete  from tableName
