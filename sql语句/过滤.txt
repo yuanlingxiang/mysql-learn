@@ -1,0 +1,22 @@
+过滤where
+
+查询test_table表中name1='xxx'的数据
+select * from test_table where name1='xxx'
+
+查询test_table表中id=1的数据
+select * from test_table where id=1
+
+tips：字符串用单引号括起来，数字则不用
+___________________________________________________________
+WHERE 子句中的运算符
+>,>=
+<,<=
+!=, ==
+between
+like
+in
+
+
+
+
+

@@ -1,0 +1,6 @@
+逻辑运算符and|or
+
+select * from test_table where name1='xx' and age=20
+select * from test_table where name1='xx' or age=20
+select * from test_table where name1='xx' and (age=20 or sex='f')
+select * from test_table where name1='xx' or (age=20 and sex='f')
